@@ -22,7 +22,16 @@
 	</beans:bean>
 	
 	<context:component-scan base-package="com.teamBlueScreen.TeamProject" />
+	<beans:bean id = "logInInterceptor" class = "com.teamBlueScreen.TeamProject.Interceptor.LogInInterceptor">
 	
+	</beans:bean>
 	
-	
+	<interceptors>
+		<interceptor>
+			<mapping path="/**/**"/>
+			<mapping path = "/**/"/>
+			<mapping path = "/*" />
+			<beans:ref bean = "logInInterceptor"/>
+		</interceptor>
+	</interceptors>
 </beans:beans>

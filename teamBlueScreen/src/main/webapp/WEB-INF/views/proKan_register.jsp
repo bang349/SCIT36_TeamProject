@@ -83,7 +83,7 @@
 			
 			database.ref("Prokan/Member/"+userId).set(Member);
 			alert("회원가입에 성공했습니다.");
-			location.href = "/cssTest";
+			location.href = "/TeamProject/";
 		})
   		
 	})

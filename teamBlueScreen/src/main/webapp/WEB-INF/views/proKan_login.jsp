@@ -72,15 +72,29 @@
     	{
     		let id = $("#userId").val();
     		let password = $("#userPassword").val();
-    		console.log(id + " " + password);
+   			alert(id);
     		database.ref("Prokan/Member/" + id).once("value").then(function(snapshot)
     		{
     			let member = JSON.parse(JSON.stringify(snapshot));
     			
     			if(member.userPassword == password)
-    			{
-    					alert("로그인 성공");
-    					$.session.set("userId", id);
+    			{	
+    					$.ajax
+    					({
+    						url: "successLogin",
+    						type: "POST",
+    						data: 
+    						{
+    							userId : id
+    						},
+    						success: function(isSuccess)
+    						{
+   						    	alert("로그인 성공");
+
+   		    				    location.href = "/TeamProject/defaultPage";
+    						}
+    				    })
+ 
     			}
     			else
     			{

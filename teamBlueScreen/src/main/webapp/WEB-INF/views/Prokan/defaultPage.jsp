@@ -10,48 +10,44 @@
     
     <title>Blank | Remark Material Admin Template</title>
     
-    <link rel="apple-touch-icon" href="../../resources/global/images/apple-touch-icon.png">
-    <link rel="shortcut icon" href="../resources/global/images/favicon.ico">
+    <link rel="apple-touch-icon" href="resources/global/images/apple-touch-icon.png">
+    <link rel="shortcut icon" href="resources/global/images/favicon.ico">
     
     <!-- Stylesheets -->
-    <link rel="stylesheet" href="../resources/global/css/bootstrap.min.css">
-    <link rel="stylesheet" href="../resources/global/css/bootstrap-extend.min.css">
-    <link rel="stylesheet" href="../resources/global/css/site.min.css">
+    <link rel="stylesheet" href="resources/global/css/bootstrap.min.css">
+    <link rel="stylesheet" href="resources/global/css/bootstrap-extend.min.css">
+    <link rel="stylesheet" href="resources/global/css/site.min.css">
     
     <!-- Plugins -->
-    <link rel="stylesheet" href="../resources/global/vendor/animsition/animsition.css">
-    <link rel="stylesheet" href="../resources/global/vendor/asscrollable/asScrollable.css">
-    <link rel="stylesheet" href="../resources/global/vendor/switchery/switchery.css">
-    <link rel="stylesheet" href="../resources/global/vendor/intro-js/introjs.css">
-    <link rel="stylesheet" href="../resources/global/vendor/slidepanel/slidePanel.css">
-    <link rel="stylesheet" href="../resources/global/vendor/flag-icon-css/flag-icon.css">
-    <link rel="stylesheet" href="../resources/global/vendor/waves/waves.css">
+    <link rel="stylesheet" href="resources/global/vendor/animsition/animsition.css">
+    <link rel="stylesheet" href="resources/global/vendor/asscrollable/asScrollable.css">
+    <link rel="stylesheet" href="resources/global/vendor/switchery/switchery.css">
+    <link rel="stylesheet" href="resources/global/vendor/intro-js/introjs.css">
+    <link rel="stylesheet" href="resources/global/vendor/slidepanel/slidePanel.css">
+    <link rel="stylesheet" href="resources/global/vendor/flag-icon-css/flag-icon.css">
+    <link rel="stylesheet" href="resources/global/vendor/waves/waves.css">
     
     
     <!-- Fonts -->
-    <link rel="stylesheet" href="../resources/global/fonts/material-design/material-design.min.css">
-    <link rel="stylesheet" href="../resources/global/fonts/brand-icons/brand-icons.min.css">
+    <link rel="stylesheet" href="resources/global/fonts/material-design/material-design.min.css">
+    <link rel="stylesheet" href="resources/global/fonts/brand-icons/brand-icons.min.css">
     <link rel='stylesheet' href='http://fonts.googleapis.com/css?family=Roboto:300,400,500,300italic'>
     
-    <!--[if lt IE 9]>
-    <script src="../resources/global/vendor/html5shiv/html5shiv.min.js"></script>
-    <![endif]-->
-    
-    <!--[if lt IE 10]>
-    <script src="../resources/global/vendor/media-match/media.match.min.js"></script>
-    <script src="../resources/global/vendor/respond/respond.min.js"></script>
-    <![endif]-->
-    
     <!-- Scripts -->
-    <script src="../resources/global/vendor/breakpoints/breakpoints.js"></script>
+    <script src="resources/global/vendor/breakpoints/breakpoints.js"></script>
     <script>
       Breakpoints();
     </script>
   </head>
+  
+  <script>
+  
+  alert(sessionStorage.getItem("userId"));
+  </script>
+  
+  
+  
   <body class="animsition">
-    <!--[if lt IE 8]>
-        <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-    <![endif]-->
 
     <nav class="site-navbar navbar navbar-default navbar-fixed-top navbar-mega" role="navigation">
     
@@ -66,7 +62,7 @@
           <i class="icon md-more" aria-hidden="true"></i>
         </button>
         <div class="navbar-brand navbar-brand-center site-gridmenu-toggle" data-toggle="gridmenu">
-          <img class="navbar-brand-logo" src="../resources/global/images/logo2.png" title="Remark">
+          <img class="navbar-brand-logo" src="resources/global/images/logo2.png" title="Remark">
           <span class="navbar-brand-text hidden-xs-down"> Remark</span>
         </div>
         <button type="button" class="navbar-toggler collapsed" data-target="#site-navbar-search"
@@ -138,32 +134,32 @@
                       <ul class="blocks-3">
                         <li>
                           <a class="thumbnail m-0" href="javascript:void(0)">
-                            <img class="w-full" src="../resources/global/photos/placeholder.png" alt="..." />
+                            <img class="w-full" src="resources/global/photos/placeholder.png" alt="..." />
                           </a>
                         </li>
                         <li>
                           <a class="thumbnail m-0" href="javascript:void(0)">
-                            <img class="w-full" src="../resources/global/photos/placeholder.png" alt="..." />
+                            <img class="w-full" src="resources/global/photos/placeholder.png" alt="..." />
                           </a>
                         </li>
                         <li>
                           <a class="thumbnail m-0" href="javascript:void(0)">
-                            <img class="w-full" src="../resources/global/photos/placeholder.png" alt="..." />
+                            <img class="w-full" src="resources/global/photos/placeholder.png" alt="..." />
                           </a>
                         </li>
                         <li>
                           <a class="thumbnail m-0" href="javascript:void(0)">
-                            <img class="w-full" src="../resources/global/photos/placeholder.png" alt="..." />
+                            <img class="w-full" src="resources/global/photos/placeholder.png" alt="..." />
                           </a>
                         </li>
                         <li>
                           <a class="thumbnail m-0" href="javascript:void(0)">
-                            <img class="w-full" src="../resources/global/photos/placeholder.png" alt="..." />
+                            <img class="w-full" src="resources/global/photos/placeholder.png" alt="..." />
                           </a>
                         </li>
                         <li>
                           <a class="thumbnail m-0" href="javascript:void(0)">
-                            <img class="w-full" src="../resources/global/photos/placeholder.png" alt="..." />
+                            <img class="w-full" src="resources/global/photos/placeholder.png" alt="..." />
                           </a>
                         </li>
                       </ul>
@@ -258,7 +254,7 @@
               <a class="nav-link navbar-avatar" data-toggle="dropdown" href="#" aria-expanded="false"
                 data-animation="scale-up" role="button">
                 <span class="avatar avatar-online">
-                  <img src="../resources/global/portraits/5.jpg" alt="...">
+                  <img src="resources/global/portraits/5.jpg" alt="...">
                   <i></i>
                 </span>
               </a>
@@ -372,7 +368,7 @@
                         <div class="media">
                           <div class="pr-10">
                             <span class="avatar avatar-sm avatar-online">
-                              <img src="../resources/global/portraits/2.jpg" alt="..." />
+                              <img src="resources/global/portraits/2.jpg" alt="..." />
                               <i></i>
                             </span>
                           </div>
@@ -389,7 +385,7 @@
                         <div class="media">
                           <div class="pr-10">
                             <span class="avatar avatar-sm avatar-off">
-                              <img src="../resources/global/portraits/3.jpg" alt="..." />
+                              <img src="resources/global/portraits/3.jpg" alt="..." />
                               <i></i>
                             </span>
                           </div>
@@ -406,7 +402,7 @@
                         <div class="media">
                           <div class="pr-10">
                             <span class="avatar avatar-sm avatar-busy">
-                              <img src="../resources/global/portraits/4.jpg" alt="..." />
+                              <img src="resources/global/portraits/4.jpg" alt="..." />
                               <i></i>
                             </span>
                           </div>
@@ -423,7 +419,7 @@
                         <div class="media">
                           <div class="pr-10">
                             <span class="avatar avatar-sm avatar-away">
-                              <img src="../resources/global/portraits/5.jpg" alt="..." />
+                              <img src="resources/global/portraits/5.jpg" alt="..." />
                               <i></i>
                             </span>
                           </div>
@@ -651,44 +647,44 @@
       </div>
     </footer>
     <!-- Core  -->
-    <script src="../resources/global/vendor/babel-external-helpers/babel-external-helpers.js"></script>
-    <script src="../resources/global/vendor/jquery/jquery.js"></script>
-    <script src="../resources/global/vendor/popper-js/umd/popper.min.js"></script>
-    <script src="../resources/global/vendor/bootstrap/bootstrap.js"></script>
-    <script src="../resources/global/vendor/animsition/animsition.js"></script>
-    <script src="../resources/global/vendor/mousewheel/jquery.mousewheel.js"></script>
-    <script src="../resources/global/vendor/asscrollbar/jquery-asScrollbar.js"></script>
-    <script src="../resources/global/vendor/asscrollable/jquery-asScrollable.js"></script>
-    <script src="../resources/global/vendor/ashoverscroll/jquery-asHoverScroll.js"></script>
-    <script src="../resources/global/vendor/waves/waves.js"></script>
+    <script src="resources/global/vendor/babel-external-helpers/babel-external-helpers.js"></script>
+    <script src="resources/global/vendor/jquery/jquery.js"></script>
+    <script src="resources/global/vendor/popper-js/umd/popper.min.js"></script>
+    <script src="resources/global/vendor/bootstrap/bootstrap.js"></script>
+    <script src="resources/global/vendor/animsition/animsition.js"></script>
+    <script src="resources/global/vendor/mousewheel/jquery.mousewheel.js"></script>
+    <script src="resources/global/vendor/asscrollbar/jquery-asScrollbar.js"></script>
+    <script src="resources/global/vendor/asscrollable/jquery-asScrollable.js"></script>
+    <script src="resources/global/vendor/ashoverscroll/jquery-asHoverScroll.js"></script>
+    <script src="resources/global/vendor/waves/waves.js"></script>
     
     <!-- Plugins -->
-    <script src="../resources/global/vendor/switchery/switchery.js"></script>
-    <script src="../resources/global/vendor/intro-js/intro.js"></script>
-    <script src="../resources/global/vendor/screenfull/screenfull.js"></script>
-    <script src="../resources/global/vendor/slidepanel/jquery-slidePanel.js"></script>
+    <script src="resources/global/vendor/switchery/switchery.js"></script>
+    <script src="resources/global/vendor/intro-js/intro.js"></script>
+    <script src="resources/global/vendor/screenfull/screenfull.js"></script>
+    <script src="resources/global/vendor/slidepanel/jquery-slidePanel.js"></script>
     
     <!-- Scripts -->
-    <script src="../resources/global/js/Component.js"></script>
-    <script src="../resources/global/js/Plugin.js"></script>
-    <script src="../resources/global/js/Base.js"></script>
-    <script src="../resources/global/js/Config.js"></script>
+    <script src="resources/global/js/Component.js"></script>
+    <script src="resources/global/js/Plugin.js"></script>
+    <script src="resources/global/js/Base.js"></script>
+    <script src="resources/global/js/Config.js"></script>
     
-    <script src="../resources/global/js/Section/Menubar.js"></script>
-    <script src="../resources/global/js/Section/GridMenu.js"></script>
-    <script src="../resources/global/js/Section/Sidebar.js"></script>
-    <script src="../resources/global/js/Section/PageAside.js"></script>
-    <script src="../resources/global/js/Plugin/menu.js"></script>
+    <script src="resources/global/js/Section/Menubar.js"></script>
+    <script src="resources/global/js/Section/GridMenu.js"></script>
+    <script src="resources/global/js/Section/Sidebar.js"></script>
+    <script src="resources/global/js/Section/PageAside.js"></script>
+    <script src="resources/global/js/Plugin/menu.js"></script>
     
-    <script src="../resources/global/js/config/colors.js"></script>
-    <script src="../resources/global/js/config/tour.js"></script>
-    <script>Config.set('assets', '../resources/global');</script>
+    <script src="resources/global/js/config/colors.js"></script>
+    <script src="resources/global/js/config/tour.js"></script>
+    <script>Config.set('assets', 'resources/global');</script>
     
     <!-- Page -->
-    <script src="../resources/global/js/Site.js"></script>
-    <script src="../resources/global/js/Plugin/asscrollable.js"></script>
-    <script src="../resources/global/js/Plugin/slidepanel.js"></script>
-    <script src="../resources/global/js/Plugin/switchery.js"></script>
+    <script src="resources/global/js/Site.js"></script>
+    <script src="resources/global/js/Plugin/asscrollable.js"></script>
+    <script src="resources/global/js/Plugin/slidepanel.js"></script>
+    <script src="resources/global/js/Plugin/switchery.js"></script>
     
     <script>
       (function(document, window, $){
