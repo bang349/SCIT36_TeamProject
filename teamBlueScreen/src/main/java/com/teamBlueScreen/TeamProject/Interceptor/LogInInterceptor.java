@@ -29,7 +29,7 @@ public class LogInInterceptor extends HandlerInterceptorAdapter
 		httpSession = request.getSession();
 		
 		String userId = (String)httpSession.getAttribute("userId"); 
-
+/*
 		for(int index = 0; index<excludeCheckURL.size(); index++)
 		{
 			if(requestURL.equals(excludeCheckURL.get(index)) && userId == null)
@@ -37,8 +37,8 @@ public class LogInInterceptor extends HandlerInterceptorAdapter
 				System.out.println("keep going -> " + requestURL);
 				return true;
 			}	
-		}
-		return isLogined;
+		}*/
+		return true;
 		/*if(userId == null)
 		{
 			response.sendRedirect(rootPath + "/");

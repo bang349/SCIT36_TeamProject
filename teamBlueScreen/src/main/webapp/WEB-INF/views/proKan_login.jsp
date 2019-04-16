@@ -79,23 +79,21 @@
     			
     			if(member.userPassword == password)
     			{	
-    					$.ajax
-    					({
-    						url: "successLogin",
-    						type: "POST",
-    						data: 
-    						{
-    							userId : id
-    						},
-    						success: function(isSuccess)
-    						{
-   						    	alert("로그인 성공");
-
-   		    				    location.href = "/TeamProject/defaultPage";
-    						}
-    				    })
- 
-    			}
+    				$.ajax
+    				({
+    					url: "successLogin",
+    					type: "POST",
+    					data: 
+    					{
+    						userId : id
+    					},
+    					success: function(isSuccess)
+    					{
+   					    	alert("로그인 성공");
+	    				    location.href = "/TeamProject/defaultPage";
+   						}
+   				    })
+	  			}
     			else
     			{
     				alert("false");
@@ -128,6 +126,7 @@
               <div class="form-group form-material floating" data-plugin="formMaterial">
                 <input type="text" class="form-control" id="userId" />
                 <label class="floating-label">ID</label>
+           
               </div>
               <div class="form-group form-material floating" data-plugin="formMaterial">
                 <input type="password" class="form-control" id="userPassword" />

@@ -24,7 +24,8 @@ public class HomeController
 	@RequestMapping(value = "/", method = RequestMethod.GET)
 	public String home(Locale locale, Model model) 
 	{
-		return "proKan_login";
+		return "Prokan/defaultPage";
+		//return "proKan_login";
 	}
 	
 	@RequestMapping(value = "/proKan_register", method = RequestMethod.GET)
@@ -46,5 +47,12 @@ public class HomeController
 		httpSession.setAttribute("userId", userId);
 		System.out.println("sessionValue in Controller : " + userId + " / " + httpSession.getAttribute("userId"));
 		return "Success";
+	}
+	
+	@RequestMapping(value = "/projectDetailed", method = RequestMethod.GET)
+	
+	public String projectDetailed()
+	{
+		return "Prokan/projectDetailed";
 	}
 }
